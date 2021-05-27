@@ -1,0 +1,27 @@
+aplicação de automatizar mensagens no whatsapp 
+pegar dados dos clientes salvar no  banco de dados mysql 
+salvar o pedido , avisar a pessoa responsavel
+atravez de uma pagina adiministrativa que um novo pedido foi realizado
+
+passo 1 = verificar se o cliente ja existe ;
+    se sim : retornar os dados do cliente
+    se não : salvar no banco e retornar os dados do cliente
+
+passo 2 = enviar uma mensagem de saudação e listar o menu para ser feito o pedido
+
+passo 3 =  cliente ira digitar o id do produto pedido
+    se id não estiver no banco : retorna uma mensagem produto não existe
+                                 verifique os itens e tente novsamente
+    
+    se id existir : perguntar se deseja adicionar algo mais,
+        se sim : listar menu outra vez
+        se não : pedir confirmação listando oque foi pedido e valor
+passo 4 = perguntar se os dados conferem 
+    se não:  mensagem de ok vamos refaser e voltar para o passo 2
+    se sim : pedir endereço
+
+passo 5 = confirmar endereço
+    se sim : otimo , estamos finalizando seu pedido em breve entregaremos
+    se não voltar ao passo 4
+
+passo 5 = deixar uma opçao caso o cliente deseja finalizar o pedido ou trocar algum item
